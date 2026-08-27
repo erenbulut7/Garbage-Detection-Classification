@@ -1,0 +1,20 @@
+# Datasets (too large for git, download separately per README)
+raw_dataset/
+garbage_dataset_resplit/
+*.jpg
+*.jpeg
+*.png
+!report/architecture_diagram.png
+
+# Training outputs
+runs/
+*.pt
+*.cache
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

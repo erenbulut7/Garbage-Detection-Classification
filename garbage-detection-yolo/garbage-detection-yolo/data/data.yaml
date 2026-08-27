@@ -1,0 +1,9 @@
+# Update 'path' to point to your local copy of the resplit dataset
+# (created by running src/prepare_data.py)
+path: /absolute/path/to/garbage_dataset_resplit
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['BIODEGRADABLE', 'CARDBOARD', 'GLASS', 'METAL', 'PAPER', 'PLASTIC']
